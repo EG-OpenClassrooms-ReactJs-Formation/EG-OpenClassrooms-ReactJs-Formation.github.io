@@ -179,8 +179,9 @@ nav ul li {
 }
 
 .project-pic-container {
-  width: 65%;
-  height: 180px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
 }
 
 .project-pic {
