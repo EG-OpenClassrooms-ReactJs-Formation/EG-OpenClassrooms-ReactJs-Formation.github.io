@@ -111,8 +111,8 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: 18rem;
+  width: 18rem;
 }
 
 .bio {
@@ -341,6 +341,12 @@ footer {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
+
+  
+  .hero img {
+    margin-bottom: 150px;
+  }
+
   nav {
     padding: 1.5rem 1rem;
   }
@@ -374,10 +380,7 @@ footer {
     gap: 0;
   }
 
-  .hero img {
-    height: 37.5rem;
-    width: 30rem;
-  }
+  
 
   .bio {
     margin-top: -7rem;
